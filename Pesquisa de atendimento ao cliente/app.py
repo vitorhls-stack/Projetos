@@ -1,6 +1,6 @@
 excelente = 0
 ruim = 0
-for i in range(10):
+for i in range(50):
     nome = input("Digite seu nome: ")
     idade = int(input("Digite sua idade: "))
     opiniao = input("Opinião (Excelente, Bom, Ruim): ").upper()
