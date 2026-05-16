@@ -1,0 +1,59 @@
+/* =========================
+   ESTILO GERAL DA PÁGINA
+========================= */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+/* =========================
+   TÍTULO PRINCIPAL
+========================= */
+
+#titulo-principal{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* =========================
+   FLEXBOX
+========================= */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+
+.secao{
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+/* =========================
+   IMAGENS
+========================= */
+
+.imagem{
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* =========================
+   PARÁGRAFOS
+========================= */
+
+p{
+    margin-top: 10px;
+    line-height: 1.5;
+}
