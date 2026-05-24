@@ -1,9 +1,76 @@
-/* =========================
-   RESET CSS
-========================= */
+/* ==========================================================================
+   RESET CSS - Baseado no Reset de Eric Meyer (adaptado)
+   Fonte: https://meyerweb.com/eric/tools/css/reset/
+   Objetivo: Remover estilos padrão dos navegadores para garantir
+   consistência visual entre diferentes browsers.
+   ========================================================================== */
 
-*{
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    /* Remove margens e preenchimentos padrão */
     margin: 0;
     padding: 0;
+    /* Remove bordas padrão */
+    border: 0;
+    /* Padroniza o tamanho de fonte */
+    font-size: 100%;
+    /* Herda a fonte do elemento pai */
+    font: inherit;
+    /* Alinhamento vertical padrão */
+    vertical-align: baseline;
+}
+
+/* Define elementos HTML5 como bloco para navegadores antigos */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/* Remove espaçamento extra em listas */
+body {
+    line-height: 1;
+}
+
+/* Remove estilo de lista */
+ol, ul {
+    list-style: none;
+}
+
+/* Remove aspas automáticas de citações */
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* Normaliza tabelas - remove espaçamento entre células */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Garante que imagens se comportem como blocos */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Normaliza box-model para todos os elementos */
+*, *::before, *::after {
     box-sizing: border-box;
 }

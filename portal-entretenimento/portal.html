@@ -1,104 +1,205 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Meu Portal de Entretenimento Digital</title>
 
-    <!-- CSS Reset -->
+    <!-- CSS Reset carregado primeiro para zerar os estilos do navegador -->
     <link rel="stylesheet" href="reset.css">
 
-    <!-- CSS Externo -->
+    <!-- CSS Externo com os estilos principais da página -->
     <link rel="stylesheet" href="estilo.css">
 
-    <!-- CSS Interno -->
-    <style>
+    <!-- Fonte do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 
-        body{
-            background-color: #f0f0f0;
+    <!-- CSS Interno: estilos específicos dessa página -->
+    <style>
+        /* animação simples de entrada para as seções */
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
-    </style>
+        .secao {
+            animation: aparecer 0.5s ease both;
+        }
 
+        /* cada seção entra com um pequeno atraso diferente */
+        #filmes-series    { animation-delay: 0.1s; }
+        #musica-podcasts  { animation-delay: 0.2s; }
+        #games-tecnologia { animation-delay: 0.3s; }
+    </style>
 </head>
 
 <body>
 
-    <h1 id="titulo-principal">
-        Meu Portal de Entretenimento Digital
-    </h1>
+    <!-- cabeçalho com o título do portal -->
+    <header id="cabecalho">
+        <h1 id="titulo-principal">Meu Portal de Entretenimento Digital</h1>
+        <p>Filmes | Música | Games</p>
+    </header>
 
-    <div class="container">
+    <!-- menu de navegação com links para cada seção -->
+    <nav id="navegacao">
+        <a href="#filmes-series">Filmes e Séries</a>
+        <a href="#musica-podcasts">Música</a>
+        <a href="#games-tecnologia">Games</a>
+    </nav>
 
-        <!-- SEÇÃO FILMES -->
+    <!-- container principal com Flexbox para as 3 seções ficarem lado a lado -->
+    <main id="container-principal">
 
-        <div class="secao">
+        <!-- ==============================
+             SEÇÃO 1 - FILMES E SÉRIES
+        ============================== -->
+        <section class="secao" id="filmes-series">
 
-            <h2 style="color: darkblue;">
-                Filmes e Séries
-            </h2>
+            <h2 class="titulo-secao">Filmes e Séries</h2>
 
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Filmes">
+            <!-- card do Better Call Saul -->
+            <div class="card">
+                <div class="card-imagem">
+                    <!-- CSS inline usado aqui para aplicar um filtro na imagem -->
+                    <img
+                        src="https://m.media-amazon.com/images/S/pv-target-images/08fd3bfadb7d07164a560a41d89765396d7be6c2f8475c35837990c1357f4c5f.jpg"
+                        alt="Poster da série Better Call Saul"
+                        style="filter: contrast(1.1);"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Série</span>
+                    <h3>Better Call Saul</h3>
+                    <p>
+                        Uma das melhores séries já feitas. Acompanha Saul Goodman,
+                        um advogado com uma moral contraditória, que se envolve com o mundo do crime.
+                    </p>
+                </div>
+            </div>
 
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Séries">
+            <!-- card de Três Homens em Conflito -->
+            <div class="card">
+                <div class="card-imagem">
+                    <img
+                        src="https://media.themoviedb.org/t/p/w780/Adrip2Jqzw56KeuV2nAxucKMNXA.jpg"
+                        alt="Poster do filme Três Homens em Conflito"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Filme</span>
+                    <h3>Três Homens em Conflito</h3>
+                    <p>
+                        Três pistoleiros competem por um tesouro em ouro durante
+                        a Guerra Civil americana.
+                    </p>
+                </div>
+            </div>
 
-            <p>
-                Filmes e séries fazem parte do entretenimento moderno e digital.
-            </p>
+        </section>
 
-        </div>
+        <!-- ==============================
+             SEÇÃO 2 - MÚSICA
+        ============================== -->
+        <section class="secao" id="musica-podcasts">
 
-        <!-- SEÇÃO MÚSICA -->
+            <h2 class="titulo-secao">Música</h2>
 
-        <div class="secao">
+            <!-- card de Baby Blue -->
+            <div class="card">
+                <div class="card-imagem">
+                    <!-- CSS inline para ajustar o brilho da imagem -->
+                    <img
+                        src="https://i.ytimg.com/vi/33oAuvbRg-c/maxresdefault.jpg"
+                        alt="Capa da música Baby Blue de Action Bronson"
+                        style="filter: brightness(0.9);"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Música</span>
+                    <h3>Baby Blue – Action Bronson</h3>
+                    <p>
+                        Uma das melhores músicas do rapper Action Bronson, lançada em 2015.
+                    </p>
+                </div>
+            </div>
 
-            <h2>
-                Música e Podcasts
-            </h2>
+            <!-- card de The Winner Takes It All -->
+            <div class="card">
+                <div class="card-imagem">
+                    <img
+                        src="https://m.media-amazon.com/images/M/MV5BODI4YjE0OTMtNmEwYy00MDQzLWFhNGQtYTgzMjdkY2U1YTE2XkEyXkFqcGc@._V1_.jpg"
+                        alt="Capa do single The Winner Takes It All do ABBA"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Música</span>
+                    <h3>The Winner Takes It All – ABBA</h3>
+                    <p>
+                        Um dos maiores hits do ABBA, lançado em 1980.
+                    </p>
+                </div>
+            </div>
 
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Música">
+        </section>
 
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Podcast">
+        <!-- ==============================
+             SEÇÃO 3 - GAMES
+        ============================== -->
+        <section class="secao" id="games-tecnologia">
 
-            <p>
-                Aplicativos de streaming transformaram a maneira de ouvir música.
-            </p>
+            <h2 class="titulo-secao">Games</h2>
 
-        </div>
+            <!-- card de Batman Arkham City -->
+            <div class="card">
+                <div class="card-imagem">
+                    <!-- CSS inline para saturar a imagem e combinar com o tema escuro -->
+                    <img
+                        src="https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000045911/bc90570730494cfa1ee0ab09820ac4669818b61afb6aaa26def9f4600e2706ea.jpg"
+                        alt="Capa do jogo Batman Arkham City"
+                        style="filter: saturate(1.2);"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Jogo</span>
+                    <h3>Batman: Arkham City</h3>
+                    <p>
+                        Considerado um dos melhores jogos de super-herói já feitos.
+                        O combate é fluido, a história é ótima e Gotham City é
+                        muito bem construída.
+                    </p>
+                </div>
+            </div>
 
-        <!-- SEÇÃO GAMES -->
+            <!-- card de Lego Indiana Jones -->
+            <div class="card">
+                <div class="card-imagem">
+                    <img
+                        src="https://images.gog-statics.com/5d94a5fc6af070cadf0e085cbd743a5d3dd0a930699135a869c78560b844a743.jpg"
+                        alt="Capa do jogo Lego Indiana Jones"
+                    >
+                </div>
+                <div class="card-conteudo">
+                    <span class="badge">Jogo</span>
+                    <h3>Lego Indiana Jones</h3>
+                    <p>
+                        Um jogo muito divertido que recria os três primeirosfilmes
+                        do Indiana Jones em formato Lego. Ótimo para jogar com amigos. Mistura ação, aventura e bastante humor.
+                    </p>
+                </div>
+            </div>
 
-        <div class="secao">
+        </section>
 
-            <h2>
-                Games e Tecnologia
-            </h2>
-
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Games">
-
-            <img class="imagem"
-                src="https://via.placeholder.com/250"
-                alt="Tecnologia">
-
-            <p>
-                Os games evoluem rapidamente junto com a tecnologia moderna.
-            </p>
-
-        </div>
-
-    </div>
+    </main>
 
 </body>
 </html>

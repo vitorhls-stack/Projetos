@@ -1,59 +1,191 @@
-/* =========================
-   ESTILO GERAL DA PÁGINA
-========================= */
+/* ==============================================
+   ESTILO.CSS - Folha de estilos externa
+   Projeto: Portal de Entretenimento Digital
+   ============================================== */
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+/* fonte padrão da página toda */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
 }
 
-/* =========================
-   TÍTULO PRINCIPAL
-========================= */
-
-#titulo-principal{
+/* estilos do cabeçalho */
+#cabecalho {
+    background-color: #16213e;
     text-align: center;
-    margin-bottom: 30px;
-    color: #333;
+    padding: 40px 20px;
+    border-bottom: 3px solid #e94560;
 }
 
-/* =========================
-   FLEXBOX
-========================= */
+/* ID para o título principal - único na página */
+#titulo-principal {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e94560;
+    margin-bottom: 8px;
+}
 
-.container{
+#cabecalho p {
+    color: #888;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+}
+
+/* navegação */
+#navegacao {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #16213e;
 }
 
-/* =========================
-   SEÇÕES
-========================= */
-
-.secao{
-    background-color: white;
-    padding: 15px;
-    border-radius: 10px;
-    width: 30%;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+#navegacao a {
+    color: #aaa;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 14px;
+    border: 1px solid #333;
+    border-radius: 4px;
 }
 
-/* =========================
-   IMAGENS
-========================= */
+#navegacao a:hover {
+    color: #fff;
+    background-color: #e94560;
+    border-color: #e94560;
+}
 
-.imagem{
+/* =============================================
+   CONTAINER PRINCIPAL - usando Flexbox
+   as 3 seções ficam lado a lado aqui
+   ============================================= */
+#container-principal {
+    display: flex;          /* ativa o flexbox */
+    flex-direction: row;    /* seções em linha */
+    gap: 20px;              /* espaço entre as seções */
+    padding: 30px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* =============================================
+   CLASSE .secao - estilo comum das 3 seções
+   ============================================= */
+.secao {
+    flex: 1;                /* cada seção ocupa espaço igual */
+    background-color: #16213e;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* cor da borda superior muda por ID */
+#filmes-series {
+    border-top: 4px solid #e94560;
+}
+
+#musica-podcasts {
+    border-top: 4px solid #0f3460;
+}
+
+#games-tecnologia {
+    border-top: 4px solid #f5a623;
+}
+
+/* =============================================
+   CLASSE .titulo-secao - padroniza os h2
+   ============================================= */
+.titulo-secao {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+/* cor do título muda de acordo com a seção pai */
+#filmes-series .titulo-secao {
+    color: #e94560;
+}
+
+#musica-podcasts .titulo-secao {
+    color: #4fc3f7;
+}
+
+#games-tecnologia .titulo-secao {
+    color: #f5a623;
+}
+
+/* =============================================
+   CLASSE .card - cada item de conteúdo
+   ============================================= */
+.card {
+    background-color: #0f3460;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid #ffffff10;
+}
+
+/* container da imagem dentro do card */
+.card-imagem {
     width: 100%;
-    margin-top: 10px;
-    border-radius: 10px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* =========================
-   PARÁGRAFOS
-========================= */
+.card-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
-p{
-    margin-top: 10px;
-    line-height: 1.5;
+/* texto dentro do card */
+.card-conteudo {
+    padding: 14px;
+}
+
+/* título do card */
+.card-conteudo h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+/* parágrafo do card */
+.card-conteudo p {
+    font-size: 0.85rem;
+    color: #aaa;
+    line-height: 1.6;
+}
+
+/* CLASSE .badge - etiqueta de categoria */
+.badge {
+    display: inline-block;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-bottom: 6px;
+    background-color: #ffffff15;
+    color: #ccc;
+}
+
+/* responsividade: em telas menores as seções empilham */
+@media (max-width: 800px) {
+    #container-principal {
+        flex-direction: column;
+    }
 }
