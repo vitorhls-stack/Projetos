@@ -3,59 +3,111 @@
 <head>
   <!--
     Desenvolvido com auxílio de IA: Claude (Anthropic - claude.ai)
-    A IA foi utilizada para me auxiliar a gerar o código HTML e CSS e organizar
+    A IA foi utilizada para me auxiliar a gerar o código HTML e organizar
     as informações sobre os atrativos turísticos de Jacareí/SP.
-    Usei também a IA para me dar a descrisção de cada atrativo e o endereço.
+    Usei também a IA para me dar a descrição de cada atrativo e o endereço.
   -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="w3.css">
   <title>Atrativos Turísticos - Jacareí</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #f5f5f5;
+    }
+    .card-img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .titulo-principal {
+      color: #2c5f3e;
+    }
+    .titulo-card {
+      color: #2c5f3e;
+      font-size: 1rem;
+    }
+  </style>
 </head>
 <body>
 
-  <h1>Atrativos Turísticos - Jacareí/SP</h1>
+  <div class="w3-container w3-center w3-padding-32">
+    <h1 class="titulo-principal">Atrativos Turísticos - Jacareí/SP</h1>
+  </div>
 
-  <div class="grid">
+  <div class="w3-row-padding w3-center" style="max-width:1100px; margin:0 auto;">
 
-    <div class="card">
-      <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2022/02/patio-dos-Trilhos-840x498.jpg" alt="Pátio dos Trilhos" />
-      <h2>Pátio dos Trilhos</h2>
-      <p>Antiga Estação Ferroviária com mais de 147 anos. Hoje é um espaço cultural com a Feira dos Trilhos, Fundação Cultural de Jacareí e Centro de Informações Turísticas.</p>
-      <p><strong>Endereço:</strong> Praça Raul Chaves, 531</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2022/02/patio-dos-Trilhos-840x498.jpg"
+             alt="Pátio dos Trilhos" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Pátio dos Trilhos</h2>
+          <p>Antiga Estação Ferroviária com mais de 147 anos. Hoje é um espaço cultural com a Feira dos Trilhos, Fundação Cultural de Jacareí e Centro de Informações Turísticas.</p>
+          <p><strong>Endereço:</strong> Praça Raul Chaves, 531</p>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://www.jacarei.sp.gov.br/parque-da-cidade/img_8264/" alt="Parque da Cidade" />
-      <h2>Parque da Cidade</h2>
-      <p>Área verde de 42.000 m² no centro da cidade, com lago, orquidário, jardim japonês e pista de caminhada. Ótimo para lazer em família.</p>
-      <p><strong>Endereço:</strong> Centro de Jacareí</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://www.jacarei.sp.gov.br/parque-da-cidade/img_8264/"
+             alt="Parque da Cidade" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Parque da Cidade</h2>
+          <p>Área verde de 42.000 m² no centro da cidade, com lago, orquidário, jardim japonês e pista de caminhada. Ótimo para lazer em família.</p>
+          <p><strong>Endereço:</strong> Centro de Jacareí</p>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2018/04/Museu2-1-550x393.jpg" alt="Museu de Antropologia" />
-      <h2>Museu de Antropologia do Vale do Paraíba</h2>
-      <p>Fundado em 1980, reúne mais de 4.000 peças barrocas, como as famosas Paulistinhas e retratos históricos. Patrimônio histórico com mais de 15 cômodos.</p>
-      <p><strong>Endereço:</strong> Centro Histórico de Jacareí</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2018/04/Museu2-1-550x393.jpg"
+             alt="Museu de Antropologia" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Museu de Antropologia do Vale do Paraíba</h2>
+          <p>Fundado em 1980, reúne mais de 4.000 peças barrocas, como as famosas Paulistinhas e retratos históricos. Patrimônio histórico com mais de 15 cômodos.</p>
+          <p><strong>Endereço:</strong> Centro Histórico de Jacareí</p>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2017/09/Pq_Eucaliptos_1.jpg" alt="Parque dos Eucaliptos" />
-      <h2>Parque dos Eucaliptos</h2>
-      <p>Parque com 28.000 m² de área verde, lago, playground e quadras esportivas. Ideal para caminhadas e piqueniques em família ao ar livre.</p>
-      <p><strong>Endereço:</strong> Bairro dos Eucaliptos, Jacareí</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://www.jacarei.sp.gov.br/wp-content/uploads/2017/09/Pq_Eucaliptos_1.jpg"
+             alt="Parque dos Eucaliptos" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Parque dos Eucaliptos</h2>
+          <p>Parque com 28.000 m² de área verde, lago, playground e quadras esportivas. Ideal para caminhadas e piqueniques em família ao ar livre.</p>
+          <p><strong>Endereço:</strong> Bairro dos Eucaliptos, Jacareí</p>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cb/3b/e6/represa-de-jaguari.jpg?w=1200&h=-1&s=1" alt="Represa do Jaguari" />
-      <h2>Represa do Jaguari</h2>
-      <p>Beleza natural com trilhas ecológicas de até 5 km. Muito visitada por amantes do ecoturismo, fotografia e atividades ao ar livre nas proximidades de Jacareí.</p>
-      <p><strong>Endereço:</strong> Área rural de Jacareí/SP</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/cb/3b/e6/represa-de-jaguari.jpg?w=1200&h=-1&s=1"
+             alt="Represa do Jaguari" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Represa do Jaguari</h2>
+          <p>Beleza natural com trilhas ecológicas de até 5 km. Muito visitada por amantes do ecoturismo, fotografia e atividades ao ar livre nas proximidades de Jacareí.</p>
+          <p><strong>Endereço:</strong> Área rural de Jacareí/SP</p>
+        </div>
+      </div>
     </div>
 
-    <div class="card">
-      <img src="https://vault-us-east-1.pulsarimagens.com.br/file/thumb/79DM649.jpg" alt="Igreja Matriz Nossa Senhora da Conceição" />
-      <h2>Igreja Matriz N. S. da Conceição</h2>
-      <p>Uma das igrejas mais importantes da cidade. Junto com a Igreja do Avareí (1745), construída por jesuítas, formam a Rota das Igrejas Históricas de Jacareí.</p>
-      <p><strong>Endereço:</strong> Praça Conde Frontin — Centro</p>
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card w3-hover-opacity">
+        <img src="https://vault-us-east-1.pulsarimagens.com.br/file/thumb/79DM649.jpg"
+             alt="Igreja Matriz Nossa Senhora da Conceição" class="card-img">
+        <div class="w3-container w3-padding">
+          <h2 class="titulo-card">Igreja Matriz N. S. da Conceição</h2>
+          <p>Uma das igrejas mais importantes da cidade. Junto com a Igreja do Avareí (1745), construída por jesuítas, formam a Rota das Igrejas Históricas de Jacareí.</p>
+          <p><strong>Endereço:</strong> Praça Conde Frontin — Centro</p>
+        </div>
+      </div>
     </div>
 
   </div>
