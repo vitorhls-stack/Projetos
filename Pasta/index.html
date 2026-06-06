@@ -483,6 +483,116 @@
         }
         .faq-item.open .faq-a { display: block; }
 
+        /* ════════════════════════════
+           SERVIÇOS / PRODUTOS
+        ════════════════════════════ */
+        #servicos { background: var(--bg-2); }
+
+        /* Área do slideshow */
+        .slideshow-wrap {
+            position: relative;
+            max-width: 720px;
+            margin: 0 auto 48px;
+            background: var(--bg-3);
+            border: 1px solid var(--border);
+        }
+
+        /* Cada slide: imagem + legenda */
+        .slide-item {
+            display: none; /* JavaScript controla quem aparece */
+            text-align: center;
+        }
+        .slide-item img {
+            width: 100%;
+            height: 380px;
+            object-fit: cover;
+            display: block;
+        }
+        .slide-caption {
+            padding: 20px 28px;
+            background: var(--bg-3);
+            border-top: 2px solid var(--accent);
+        }
+        .slide-caption h3 {
+            font-size: .95rem;
+            color: #fff;
+            letter-spacing: .1em;
+            margin-bottom: 8px;
+        }
+        .slide-caption p {
+            font-size: .82rem;
+            color: var(--text);
+            line-height: 1.8;
+        }
+
+        /* Botões de navegação do slideshow */
+        .slide-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-80%); /* centraliza na imagem */
+            background: rgba(46,196,196,0.85);
+            color: #fff;
+            border: none;
+            width: 44px;
+            height: 44px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background .2s, transform .2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+        }
+        .slide-btn:hover {
+            background: var(--accent-d);
+            transform: translateY(-80%) scale(1.1);
+        }
+        .slide-btn.prev { left: 0; }
+        .slide-btn.next { right: 0; }
+
+        /* Contador de slides */
+        .slide-counter {
+            text-align: center;
+            font-size: .72rem;
+            color: var(--dim);
+            letter-spacing: .2em;
+            margin-bottom: 48px;
+        }
+
+        /* Grid de serviços em texto abaixo do slideshow */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .service-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            padding: 28px 22px;
+            transition: border-color .3s, transform .3s;
+        }
+        .service-card:hover {
+            border-color: var(--accent);
+            transform: translateY(-4px);
+        }
+        .service-card i {
+            font-size: 1.5rem;
+            color: var(--accent);
+            margin-bottom: 12px;
+            display: block;
+        }
+        .service-card h3 {
+            font-size: .85rem;
+            color: #fff;
+            letter-spacing: .1em;
+            margin-bottom: 10px;
+        }
+        .service-card p {
+            font-size: .78rem;
+            color: var(--dim);
+            line-height: 1.75;
+        }
+
         /* ── RESPONSIVE ── */
         @media (max-width: 600px) {
             #main { margin-left: 0; padding-top: 44px; }
@@ -495,6 +605,11 @@
             .hmv-grid { grid-template-columns: 1fr 1fr; }
             .highlights { grid-template-columns: repeat(2, 1fr); }
             .partners-grid { grid-template-columns: 1fr 1fr; }
+            .services-grid { grid-template-columns: 1fr 1fr; }
+        }
+        @media (max-width: 600px) {
+            .services-grid { grid-template-columns: 1fr; }
+            .slide-item img { height: 220px; }
         }
     </style>
 </head>
@@ -509,6 +624,9 @@
     <a href="#home" class="w3-bar-item w3-button">
         <i class="fa fa-home"></i><p>HOME</p>
     </a>
+    <a href="#servicos" class="w3-bar-item w3-button">
+        <i class="fa fa-briefcase"></i><p>SERVIÇOS</p>
+    </a>
     <a href="#parceiros" class="w3-bar-item w3-button">
         <i class="fa fa-handshake-o"></i><p>PARCEIROS</p>
     </a>
@@ -520,9 +638,10 @@
 <!-- ══ NAVBAR MOBILE ══ -->
 <div class="w3-top w3-hide-large w3-hide-medium">
     <nav class="w3-bar w3-center w3-small">
-        <a href="#home"      class="w3-bar-item w3-button" style="width:33%">HOME</a>
-        <a href="#parceiros" class="w3-bar-item w3-button" style="width:34%">PARCEIROS</a>
-        <a href="#faq"       class="w3-bar-item w3-button" style="width:33%">FAQ</a>
+        <a href="#home"      class="w3-bar-item w3-button" style="width:25%">HOME</a>
+        <a href="#servicos"  class="w3-bar-item w3-button" style="width:25%">SERVIÇOS</a>
+        <a href="#parceiros" class="w3-bar-item w3-button" style="width:25%">PARCEIROS</a>
+        <a href="#faq"       class="w3-bar-item w3-button" style="width:25%">FAQ</a>
     </nav>
 </div>
 
@@ -626,6 +745,135 @@
                 <a href="#" title="YouTube"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
+    </section>
+
+    <!-- ══ SERVIÇOS / PRODUTOS ══ -->
+    <section id="servicos">
+
+        <!-- Cabeçalho da seção -->
+        <div class="sec-header-bar">
+            <img src="img/logo.png" alt="Logo">
+            <div class="sec-header-text">
+                <h2>Wayne Enterprises</h2>
+                <p>Forjando o Futuro. Protegendo o Presente.</p>
+            </div>
+        </div>
+
+        <!-- Área principal -->
+        <div class="sec-wrap">
+
+            <span class="eyebrow">O que oferecemos</span>
+            <h2 class="sec-title">Serviços & Produtos</h2>
+            <div class="rule"></div>
+
+            <!--
+                SLIDESHOW MANUAL
+                Baseado no modelo da Agenda 16 (SlideShow Manual com W3.CSS).
+                O JavaScript controla qual slide aparece usando a variável slideIndex.
+                Os botões chamam plusSlides(-1) para voltar e plusSlides(1) para avançar.
+            -->
+
+            <!-- Container do slideshow -->
+            <div class="slideshow-wrap">
+
+                <!-- Botão: slide anterior -->
+                <button class="slide-btn prev" onclick="plusSlides(-1)" title="Anterior">&#10094;</button>
+
+                <!-- Botão: próximo slide -->
+                <button class="slide-btn next" onclick="plusSlides(1)" title="Próximo">&#10095;</button>
+
+                <!-- Slide 1 -->
+                <div class="slide-item">
+                    <img src="https://placehold.co/720x380/1e1e26/2ec4c4?text=Wayne+Defense+Systems" alt="Wayne Defense Systems">
+                    <div class="slide-caption">
+                        <h3>Wayne Defense Systems</h3>
+                        <p>Tecnologia de defesa de última geração para governos e forças de segurança. Sistemas de vigilância, veículos blindados e equipamentos de comunicação criptografada desenvolvidos com os mais altos padrões de engenharia.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide-item">
+                    <img src="https://placehold.co/720x380/1e1e26/2ec4c4?text=Wayne+Clean+Energy" alt="Wayne Clean Energy">
+                    <div class="slide-caption">
+                        <h3>Wayne Clean Energy</h3>
+                        <p>Soluções em energia solar, eólica e de fusão para cidades, indústrias e residências. Nosso reator de fusão de nova geração tem capacidade para abastecer Gotham City por décadas com zero emissão de carbono.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide-item">
+                    <img src="https://placehold.co/720x380/1e1e26/2ec4c4?text=Wayne+MedTech" alt="Wayne MedTech">
+                    <div class="slide-caption">
+                        <h3>Wayne MedTech</h3>
+                        <p>Equipamentos hospitalares de alta precisão, próteses biónicas e sistemas de diagnóstico por imagem. Presente em mais de 200 hospitais ao redor do mundo, a divisão MedTech salva vidas todos os dias.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4 -->
+                <div class="slide-item">
+                    <img src="https://placehold.co/720x380/1e1e26/2ec4c4?text=Wayne+Telecom" alt="Wayne Telecom">
+                    <div class="slide-caption">
+                        <h3>Wayne Telecom</h3>
+                        <p>Infraestrutura de fibra óptica, redes 5G e satélites de comunicação. Cobrimos mais de 47 países com internet de alta velocidade e soluções corporativas de conectividade segura e ininterrupta.</p>
+                    </div>
+                </div>
+
+            </div><!-- /slideshow-wrap -->
+
+            <!-- Contador de slides (atualizado pelo JavaScript) -->
+            <div class="slide-counter" id="slideCounter">Slide 1 de 4</div>
+
+            <!-- Cards resumo dos serviços -->
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fa fa-shield"></i>
+                    <h3>Defesa</h3>
+                    <p>Equipamentos e sistemas de segurança para o setor público e privado. Tecnologia desenvolvida com rigor militar e certificação internacional.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-leaf"></i>
+                    <h3>Energia Limpa</h3>
+                    <p>Projetos de energia renovável customizados para cada cliente. Do planejamento à operação, com garantia de redução de custos e impacto ambiental.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-heartbeat"></i>
+                    <h3>Saúde</h3>
+                    <p>Dispositivos médicos certificados pela ANVISA e FDA. Parceria com hospitais, clínicas e redes de saúde em todo o mundo.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-wifi"></i>
+                    <h3>Telecom</h3>
+                    <p>Infraestrutura de conectividade para empresas e cidades inteligentes. Soluções sob medida com suporte técnico 24h por dia, 7 dias por semana.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-rocket"></i>
+                    <h3>Aeroespacial</h3>
+                    <p>Desenvolvimento de aeronaves, satélites e componentes para a indústria aeroespacial. Parceria estratégica com agências espaciais internacionais.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-university"></i>
+                    <h3>Pesquisa & Dev.</h3>
+                    <p>Investimento contínuo em P&D para criar as soluções do amanhã. Laboratórios em Gotham City, Londres e Tóquio com mais de 3.000 pesquisadores.</p>
+                </div>
+            </div>
+
+        </div><!-- /sec-wrap -->
+
+        <!-- Rodapé da seção -->
+        <div class="sec-footer">
+            <div class="contact-info">
+                <span><i class="fa fa-envelope"></i> contato@wayneenterprises.com</span>
+                <span><i class="fa fa-phone"></i> (11) 3333-9999</span>
+            </div>
+            <div class="socials">
+                <a href="#" title="Instagram"><i class="fa fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                <a href="#" title="Twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" title="Facebook"><i class="fa fa-facebook"></i></a>
+                <a href="#" title="YouTube"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
+
     </section>
 
     <!-- ══ PARCEIROS ══ -->
@@ -803,9 +1051,48 @@
 </div><!-- /main -->
 
 <script>
+    // ══ FAQ: abre e fecha as respostas ══
     function toggle(el) {
         const item = el.parentElement;
         item.classList.toggle('open');
+    }
+
+    // ══ SLIDESHOW MANUAL (Seção Serviços) ══
+    // Baseado no modelo da Agenda 16 - SlideShow Manual
+    // slideIndex guarda qual slide está sendo exibido no momento.
+    var slideIndex = 1;
+    showSlide(slideIndex); // chama a função ao carregar a página para mostrar o slide 1
+
+    // plusSlides é chamada pelos botões (onclick).
+    // n = 1 para avançar, n = -1 para voltar.
+    function plusSlides(n) {
+        showSlide(slideIndex += n);
+    }
+
+    // showSlide esconde todos os slides e exibe apenas o de índice n.
+    function showSlide(n) {
+        var i;
+        var slides = document.getElementsByClassName("slide-item");
+        var total = slides.length;
+
+        // Se passou do último slide, volta para o primeiro
+        if (n > total) { slideIndex = 1; }
+
+        // Se voltou antes do primeiro slide, vai para o último
+        if (n < 1) { slideIndex = total; }
+
+        // Esconde todos os slides
+        for (i = 0; i < total; i++) {
+            slides[i].style.display = "none";
+        }
+
+        // Exibe apenas o slide atual
+        // Obs: slideIndex começa em 1, mas o índice do array começa em 0, por isso slideIndex - 1
+        slides[slideIndex - 1].style.display = "block";
+
+        // Atualiza o contador (ex: "Slide 2 de 4")
+        document.getElementById("slideCounter").innerHTML =
+            "Slide " + slideIndex + " de " + total;
     }
 </script>
 </body>
