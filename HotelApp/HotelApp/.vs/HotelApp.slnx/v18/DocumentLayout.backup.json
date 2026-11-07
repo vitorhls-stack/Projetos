@@ -1,0 +1,274 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Dev\\HotelApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\sobre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\sobre.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\contratacaohospedagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\contratacaohospedagem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\hotelapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\hotelapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\hospedagemcontratada.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\hospedagemcontratada.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\hospedagemcontratada.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\hospedagemcontratada.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\sobre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\sobre.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\views\\contratacaohospedagem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\views\\contratacaohospedagem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|c:\\dev\\hotelapp\\hotelapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C62FFC88-682B-DECE-F410-425C76FE2C31}|HotelApp\\HotelApp.csproj|solutionrelative:hotelapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HospedagemContratada.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\HospedagemContratada.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\HospedagemContratada.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\HospedagemContratada.xaml",
+              "RelativeToolTip": "HotelApp\\Views\\HospedagemContratada.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:54:05.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContratacaoHospedagem.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\ContratacaoHospedagem.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\ContratacaoHospedagem.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\ContratacaoHospedagem.xaml",
+              "RelativeToolTip": "HotelApp\\Views\\ContratacaoHospedagem.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:25:17.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sobre.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\Sobre.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\Sobre.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\Sobre.xaml",
+              "RelativeToolTip": "HotelApp\\Views\\Sobre.xaml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwB4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:25:29.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Resources\\Styles\\Styles.xaml",
+              "RelativeToolTip": "HotelApp\\Resources\\Styles\\Styles.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:51:30.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\Resources\\Styles\\Colors.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Resources\\Styles\\Colors.xaml",
+              "RelativeToolTip": "HotelApp\\Resources\\Styles\\Colors.xaml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:50:33.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HospedagemContratada.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\HospedagemContratada.xaml.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\HospedagemContratada.xaml.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\HospedagemContratada.xaml.cs",
+              "RelativeToolTip": "HotelApp\\Views\\HospedagemContratada.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:54:41.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HotelApp",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\HotelApp.csproj",
+              "RelativeDocumentMoniker": "HotelApp\\HotelApp.csproj",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\HotelApp.csproj",
+              "RelativeToolTip": "HotelApp\\HotelApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-07T13:55:12.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ContratacaoHospedagem.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\ContratacaoHospedagem.xaml.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\ContratacaoHospedagem.xaml.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\ContratacaoHospedagem.xaml.cs",
+              "RelativeToolTip": "HotelApp\\Views\\ContratacaoHospedagem.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:26:45.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Sobre.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\Views\\Sobre.xaml.cs",
+              "RelativeDocumentMoniker": "HotelApp\\Views\\Sobre.xaml.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\Views\\Sobre.xaml.cs",
+              "RelativeToolTip": "HotelApp\\Views\\Sobre.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:27:27.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\App.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\App.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\App.xaml",
+              "RelativeToolTip": "HotelApp\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:27:43.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "HotelApp\\MauiProgram.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\MauiProgram.cs",
+              "RelativeToolTip": "HotelApp\\MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA4AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:27:51.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "HotelApp\\AppShell.xaml.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "HotelApp\\AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:25:50.808Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "HotelApp\\App.xaml.cs",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\App.xaml.cs",
+              "RelativeToolTip": "HotelApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-07T13:34:55.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\AppShell.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\AppShell.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\AppShell.xaml",
+              "RelativeToolTip": "HotelApp\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:27:45.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Dev\\HotelApp\\HotelApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "HotelApp\\MainPage.xaml",
+              "ToolTip": "C:\\Dev\\HotelApp\\HotelApp\\MainPage.xaml",
+              "RelativeToolTip": "HotelApp\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-11-07T13:27:49.638Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
